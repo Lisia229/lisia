@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0,user-scalable=yes">
+  <title>0ゼロ</title>
+  <!-- 不給按右鍵啦啦啦 -->
+  <script>
+    document.addEventListener('contextmenu', function (e) {
+      e.preventDefault(); // 阻止右鍵菜單彈出
+    });
+  </script>
+  <meta property="og:type" content="website" />
+  <meta name="description"
+    content="這是一個不知道要幹嘛的網站，在生命中最悠閒的日子裡，記錄下生活中那些值得一提的小事，又或者內心深處的聲音。或許煩惱，或許悲傷，或許感動，或許歡喜，也不算誤了青春的大好時光。">
+  <meta property="og:title" content="+0ゼロ">
+  <meta name="twitter:title" content="+0ゼロ">
+  <meta property="og:site_name" content="+0ゼロ">
+  <meta property="og:description"
+    content="這是一個不知道要幹嘛的網站，在生命中最悠閒的日子裡，記錄下生活中那些值得一提的小事，又或者內心深處的聲音。或許煩惱，或許悲傷，或許感動，或許歡喜，也不算誤了青春的大好時光。">
+  <link rel="icon" type="image/x-icon" href="./assets/images/lisia-01.svg" />
+  <meta name="twitter:description"
+    content="這是一個不知道要幹嘛的網站，在生命中最悠閒的日子裡，記錄下生活中那些值得一提的小事，又或者內心深處的聲音。或許煩惱，或許悲傷，或許感動，或許歡喜，也不算誤了青春的大好時光。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Roboto&family=Shippori+Mincho:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./theme/css/theme.css">
+  <link rel="stylesheet" href="./theme/css/common.css">
+  <link rel="stylesheet" href="./theme/css/style.css">
+  <link rel="stylesheet" href="./assets/css/style.min.css">
+  <link rel="stylesheet" href="./theme/css/swiper.css">
+  <link rel="shortcut icon" href="./assets/images/lisia-01.svg" />
+  <meta property="og:image" content="./assets/images/ogb.jpg">
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no,address=no,email=no">
+  <meta name="twitter:site" content="" />
+</head>
+
+<body id="top" class="p-2023winter">
+  <div id="js-loader" class="c-loader">
+    <div class="c-loader__inner">
+      <div class="c-loader__logo">
+        <img class="logo" src="./assets/images/title/logo.svg" alt="">
+        <img class="logo1" src="./assets/images/title/fun.svg" alt="">
+        <img class="logo2" src="./assets/images/title/time.svg" alt="">
+        <img class="logo3" src="./assets/images/title/with.svg" alt="">
+        <img class="logo4" src="./assets/images/title/socks.svg" alt="">
+        <div class="logo5"></div>
+      </div>
+    </div>
+  </div>
+  <div id="js-loaderLayer" class="c-loader__layer">
+    <div></div>
+    <img src="./assets/images/wave.svg" alt="">
+  </div>
+  <div id="cursor" class="u-pc"></div>
+  <div id="stalker" class="u-pc"></div>
+
+  <!-- <div class="op-loader">
+    <video autoplay="" muted="" playsinline="" id="topvid">
+      <source src="https://cocochi.design/wp-content/themes/cocochi/images/loading.mp4" type="video/mp4">
+    </video>
+  </div> -->
+  <!-- <div id="GoTop" style="opacity: 0.7; display: block;"><a href="#">
+      <img src="./assets/images/GoTop.png" alt="go to top"></a>
+  </div> -->
+  <div class="fix-content fixed">
+    <div class="box-top">
+      <h1 class="header_title">
+        <a href="./index.html">
+          <img src="./assets/images/zero.1.png" alt="">
+        </a>
+      </h1>
+    </div>
+    <div class="box-middle">
+      <div class="drag-wrap">
+        <div class="drag">
+          <img src="./theme/images/icon_drag.svg" alt="">
+          <div class="drug-bg">
+            <span></span>
+          </div>
+        </div>
+        <!-- <div class="drug-bgbg"></div> -->
+      </div>
+      <div class="nav-content">
+        <div class="nav-left">
+          <nav class="nav">
+            <ul class="nav_lists">
+              <li class="nav_list">
+                <a href="./index.html" class="nav_link">
+                  ゼロ<span>home</span>
+                </a>
+              </li>
+              <li class="nav_list">
+                <a href="https://lisia229.github.io/" target="_blank" class="nav_link">
+                  關於我<span>profile</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="nav-right">
+          <nav class="nav">
+            <ul class="nav_lists">
+              <li class="nav_list">
+                <a href="#linkThink" class="nav_link list-tab tab_think">
+                  回憶<span>memories</span>
+                </a>
+              </li>
+              <li class="nav_list">
+                <a href="#linkWork" class="nav_link list-tab tab_work">
+                  作品<span>works</span>
+                </a>
+              </li>
+              <li class="nav_list icon">
+                <a href="https://www.instagram.com/chia_ling_hsu/" target="_blank" class="nav_link cocochi">
+                  <img src="/theme/images/me.svg" alt="">
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="cover-content js--cover">
+        <div class="result active" id="bookAll">
+          <div class="inner-content library">
+            <ul class="inner bookshelf">
+              <li class="">
+                <a href="https://lisia229.github.io/Zack2024/album.html" target="_blank" class="delay4">
+                  <div class="book  ">
+                    <div class="book-title">
+                      生日快樂<br>祝你
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2024<span>24歲</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="">
+                <a href="theme/html/2014.html" class="delay4">
+                  <div class="book rotate-l">
+                    <div class="book-title">
+                      那年十四歲<br>交往的第一年
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2024<span>first year</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./theme/html/2015.html" class="delay1">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2015/2015-hotpot.JPG" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2015<span>國三～高一</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./theme/html/2016.html" class="delay1">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2016/2016-2.JPG" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2016<span>高一</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2017.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2017/2017.jpg" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2017<span>高二</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2018.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2018/2018-2.jpg" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2017<span>高三</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2019.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2019/2019-2.JPG" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2019<span>大一</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2020.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2020/2020-2.JPEG" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2020<span>大二</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2021.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2021/2021-2.jpeg" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2021<span>大三</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2022.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2022/2022-2.jpeg" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2022<span>大四</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2023.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2023/2023-2.jpg" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2023<span>社畜/碩一</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2024.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2024/2024.JPG" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2024<span>十年</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <ul class="inner bookshelf">
+              <li>
+                <a href="/2023memories.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./assets/images/main-01.jpg" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2023<span>memories</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./theme/html/2024Korea.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/korean/1.jpeg" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2023<span>Korea</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <ul class="inner bookshelf">
+              <li>
+                <a href="https://lavicafe.com/" target="_blank" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/lavi/lavi-logo.png" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        LOGO設計<br>官網設計<span>lavicafe#安居</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="https://lisia229.github.io/calculator/" target="_blank" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/work/w04.png" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        網頁計算機<span>使用 html5 和 jQuery 製作的網頁計算機</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="result" id="bookThink">
+          <div class="inner-content library">
+            <ul class="inner bookshelf">
+              <li class="">
+                <a href="https://lisia229.github.io/Zack2024/album.html" target="_blank" class="delay4">
+                  <div class="book  ">
+                    <div class="book-title">
+                      生日快樂<br>祝你
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2024<span>24歲</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="">
+                <a href="theme/html/2014.html" class="delay4">
+                  <div class="book  ">
+                    <div class="book-title">
+                      那年十四歲<br>交往的第一年
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2024<span>first year</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./theme/html/2015.html" class="delay1">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2015/2015-hotpot.JPG" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2015<span>國三～高一</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="./theme/html/2016.html" class="delay1">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2016/2016-2.JPG" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2016<span>高一</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2017.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2017/2017.jpg" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2017<span>高二</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2018.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2018/2018-2.jpg" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2017<span>高三</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2019.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2019/2019-2.JPG" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2019<span>大一</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2020.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2020/2020-2.JPEG" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2020<span>大二</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2021.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2021/2021-2.jpeg" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2021<span>大三</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2022.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2022/2022-2.jpeg" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2022<span>大四</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2023.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2023/2023-2.jpg" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2023<span>社畜/碩一</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="/theme/html/2024.html" class="delay6">
+                  <div class="book book-img ">
+                    <div class="book-title logo">
+                      <img src="./theme/images/2024/2024.JPG" alt="">
+                    </div>
+                    <div class="book-bottom">
+                      <div class="text">
+                        2024<span>十年</span>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="result" id="bookWork">
+            <div class="inner-content library">
+              <ul class="inner bookshelf">
+                <li class="">
+                  <a href="theme/html/2014.html" class="delay4">
+                    <div class="book  ">
+                      <div class="book-title">
+                        くらしに隠れた<br>アイデアを大切に
+                      </div>
+                      <div class="book-bottom">
+                        <div class="text">
+                          attitude<span>02</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://cocochi.design/books/arutokoroni/" class="delay1">
+                    <div class="book book-img ">
+                      <div class="book-title logo">
+                        <img src="https://cocochi.design/wp-content/uploads/2023/01/works_あるところに_top-2.svg" alt="">
+                      </div>
+                      <div class="book-bottom">
+                        <div class="text">
+                          2020<span>contents logo / tool</span>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box-bottom">
+        <nav class="nav sp_only">
+          <ul class="nav_lists">
+            <li class="nav_list">
+              <a class="nav_link" href="#">
+                ゼロ<span>home</span>
+              </a>
+            </li>
+            <li class="nav_list">
+              <a class="nav_link" href="#">
+                きもち<span>memories</span>
+              </a>
+            </li>
+            <li class="nav_list">
+              <a class="nav_link" href="https://cocochi.design/#linkWork">
+                しるし<span>works</span>
+              </a>
+            </li>
+            <li class="nav_list">
+              <a class="nav_link" href="https://lisia229.github.io/">
+                lisia<span>profile</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="nav_other">
+          <p class="text-link contact-btn">
+            <a class="fuwafuwa1" href="https://cocochi.design/contact">
+              <img src="https://cocochi.design/wp-content/themes/cocochi/images/btn_contact.svg" alt="">
+            </a>
+          </p>
+          <p class="credit">我是+0</p>
+        </div>
+        <p class="text-link pc_only contact-btn">
+          <a class="fuwafuwa1" href="https://cocochi.design/contact">
+            <img src="https://cocochi.design/wp-content/themes/cocochi/images/btn_contact.svg" alt="">
+          </a>
+        </p>
+        <p class="credit pc_only">我是+0</p>
+      </div>
+      <div class="nav_trigger">
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <script src="https://cocochi.design/wp-content/themes/cocochi/js/jquery.min.js"></script>
+  <script src="https://cocochi.design/wp-content/themes/cocochi/js/swiper-bundle.js"></script>
+  <script src="https://cocochi.design/wp-content/themes/cocochi/js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+  <script src="./assets/js/bundle.min.js"></script>
+  <script>
+
+  </script>
+</body>
+
+</html>
