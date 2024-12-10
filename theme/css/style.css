@@ -1215,3 +1215,234 @@ body {
   color: #fff;
 }
 /*# sourceMappingURL=maps/style.css.map */
+/* CONTACT */
+#CONTACT {
+  height: 100vh;
+}
+.Ccontents {
+  display: block;
+  position: relative;
+  height: 100vh;
+  max-width: 1200px;
+  max-height: 700px;
+  margin: auto;
+  padding: 0 0 0 0;
+}
+.C1,
+.C2 {
+  position: absolute;
+  display: inline-block;
+  margin: 0 0 0 0;
+}
+.C1 {
+  top: 32%;
+  left: 5%;
+}
+.C2 {
+  bottom: 20%;
+  right: 5%;
+}
+.c1UL {
+  display: block;
+  width: 100%;
+  bottom: 0;
+}
+.C1c,
+.C2c {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.C2c {
+  flex-direction: row-reverse;
+}
+.C1c-icon,
+.C2c-icon {
+  display: flex;
+  justify-content: flex-start;
+}
+.C1c-icon li,
+.C2c-icon li {
+  width: 109px;
+  filter: drop-shadow(5px 5px 7px rgba(0, 0, 0, 0.2));
+}
+.Cicon1,
+.Cicon3 {
+  margin-right: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Cicon2 {
+  margin-right: 60px;
+}
+.Cicon4 {
+  margin-left: 47px;
+}
+.Cicon5 {
+  margin-left: 57px;
+}
+
+.Cicon6 {
+  margin-left: 38px;
+}
+.Cicon2:hover,
+.Cicon4:hover,
+.Cicon5:hover,
+.Cicon6:hover {
+  transform: translateY(8px);
+  -webkit-transform: translateY(8px);
+  -o-transform: translateY(8px);
+  -ms-transform: translateY(8px);
+  transition: all ease 0.3s;
+}
+.Cicon1:hover,
+.Cicon3:hover {
+  transform: translateY(-8px);
+  -webkit-transform: translateY(-8px);
+  -o-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transition: all ease 0.3s;
+}
+.Cicon1:hover .CiconEX,
+.Cicon3:hover .CiconEX {
+  transform: scaleY(1);
+  -webkit-transform: scaleY(1);
+  -o-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  transition: all ease 0.2s;
+}
+.C1c-icon img,
+.C2c-icon img {
+  width: 90%;
+}
+.CiconEX {
+  transform: scaleY(0);
+  -webkit-transform: scaleY(0);
+  -o-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  transform-origin: 0 0;
+  position: absolute;
+  top: 100%;
+  width: 293px;
+  color: black;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  letter-spacing: 0.2rem;
+  margin: 1rem 0;
+  word-break: normal;
+}
+.C1p,
+.C2p {
+  position: relative;
+  height: 75px;
+  display: flex;
+  align-items: flex-end;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+}
+.C1p {
+  margin-left: 60px;
+}
+.C2p {
+  margin-right: 60px;
+}
+.C1p:hover,
+.C2p:hover {
+  color: red;
+  font-weight: 500;
+  font-size: 1.62rem;
+}
+
+.underline {
+  position: absolute;
+}
+.underline span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 2px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* CONTACT */
+  #CONTACT {
+    height: auto;
+  }
+  .Ccontents {
+    height: auto;
+    padding: 58px 0 0 0;
+  }
+  .C1,
+  .C2 {
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+  .C1 {
+    margin: 90px 0 0 0;
+  }
+  .C2 {
+    margin: 90px 0 83px 0;
+  }
+  .c1UL {
+    display: none;
+  }
+  .C1c,
+  .C2c {
+    flex-direction: column-reverse;
+  }
+  .C1c-icon,
+  .C2c-icon {
+    justify-content: center;
+  }
+  .C1c-icon li,
+  .C2c-icon li {
+    width: 25%;
+  }
+  .Cicon1 {
+    margin-right: 24px;
+  }
+  .Cicon2 {
+    margin-right: 30px;
+  }
+  .Cicon3 {
+    margin-right: 0px;
+  }
+  .Cicon4 {
+    margin-left: 0px;
+  }
+  .Cicon5 {
+    margin-left: 31px;
+  }
+  .Cicon6 {
+    margin-left: 19px;
+  }
+  .CiconEX {
+    width: 150px;
+    margin: 0.2rem 0;
+    word-break: break-all;
+  }
+  .CiconEX p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .C1p,
+  .C2p {
+    align-items: flex-start;
+  }
+  .C1p {
+    margin-left: 0;
+  }
+  .C2p {
+    margin-right: 0;
+  }
+}

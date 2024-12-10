@@ -38,4 +38,23 @@
   box-shadow: 0 8px 15px rgba(255, 182, 193, 0.5);
   background-color: #ffc0cb;
   margin: 20px auto;
+}
+
+.header_title,
+.nav_trigger {
+  z-index: 100;
+}
+
+.pt-20 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .contact {
+    overflow-y: scroll;
+  }
+  .contact .nav-content {
+    height: auto;
+  }
 }/*# sourceMappingURL=theme.css.map */
